@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#air",
+    "#fire",
+    "#buttons",
+    "#climbable",
+    "#banners",
+    "#all_signs",
+    "#doors",
+    "#fences",
+    "#fence_gates",
+    "#wool_carpets",
+    "#trapdoors"
+  ]
+}
