@@ -1,0 +1,1 @@
+give @s minecraft:paper[item_model="minecraft:tnt",custom_data={ziwaammo:4},item_name={"bold":false,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rocket","underlined":false}] 1

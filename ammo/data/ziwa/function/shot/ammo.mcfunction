@@ -1,0 +1,1 @@
+give @s minecraft:paper[item_model="minecraft:netherite_ingot",custom_data={ziwaammo:3},item_name={"bold":false,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Shotgun Shell","underlined":false}] 1

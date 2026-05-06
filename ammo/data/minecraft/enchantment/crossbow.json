@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 0,
+  "description": "SMG",
+  "effects": {
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:linear",
+        "base": 2147483647,
+        "per_level_above_first": 2147483647
+      }
+    },
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_1"
+      },
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_2"
+      },
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_3"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "crossbow",
+  "weight": 1
+}

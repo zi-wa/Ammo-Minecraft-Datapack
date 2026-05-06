@@ -1,0 +1,1 @@
+give @s minecraft:paper[item_model="minecraft:gold_nugget",custom_data={ziwaammo:5},item_name={"bold":false,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sniper Ammo","underlined":false}] 1

@@ -1,0 +1,2 @@
+summon minecraft:block_display ~ ~ ~ {Tags:["bullet_hole"],block_state:{Name:"black_concrete"},transformation:{scale:[0.0625f,0.0625f,0.0625f],translation:[-0.03125f,-0.03125f,-0.03125f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f]}}
+execute as @e[distance=..0.03125,type=block_display,tag=bullet_hole] run scoreboard players set @s gtime 0

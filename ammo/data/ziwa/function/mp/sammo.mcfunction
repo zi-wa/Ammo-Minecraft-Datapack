@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Age:-32768,Invulnerable:1b,Item:{id:"minecraft:paper",count:1,components:{"item_name":{"bold":false,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"SMG Ammo","underlined":false},custom_data:{ziwaammo:2},item_model:"minecraft:iron_ingot"}}}
