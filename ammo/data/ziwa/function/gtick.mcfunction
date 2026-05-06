@@ -39,6 +39,7 @@ execute as @a if items entity @s container.* minecraft:paper[custom_data={ziwaam
 execute as @a if score @s mag_sniper matches 16.. run scoreboard players set @s mag_sniper 16
 execute as @a if score @s ammo_sniper matches 0 if score @s mag_sniper matches 1.. run function ziwa:sniper/reload
 
+#tick
 execute as @a if score @s rclick matches 1.. run scoreboard players set @s rclick 0
 execute as @a[advancements={rclick=true}] run advancement revoke @s only rclick
 execute as @a if score @s gtime matches 1.. run scoreboard players remove @s gtime 1
