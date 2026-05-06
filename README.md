@@ -1,5 +1,6 @@
 # Ammo-Minecraft-Datapack
 *Adds Guns to Minecraft*
+- Designed for `Minecraft Java Edition 1.21.5` or higher
 
 ## Features
 - Adds Weapons Listed Below
@@ -12,18 +13,18 @@
 - Bullet Spread
 - Headshot
 - Recoil
+- **Multiplayer Compatibility**
 
 ## How to Use
-- This data pack is designed for `Minecraft Java Edition 1.21.5`
-- Run the command below once to begin
+- Run the command below once to begin.
   ```mcfunction
   /function ziwa:gload
   ```
-- Run the command below in a **Repeating Command Block** to activate
+- Run the command below in a **Repeating Command Block** to activate.
   ```mcfunction
   /function ziwa:gtick
   ```
-- Use the commands below to give the weapon to the executor
+- Use the commands below to give the weapon to the executor.
   ```mcfunction
   /function ziwa:pistol/give
   /function ziwa:mp/give
@@ -31,7 +32,7 @@
   /function ziwa:rocket/give
   /function ziwa:sniper/give
   ```
-- Use the commands below to give ammo to the executor
+- Use the commands below to give ammo to the executor.
   ```mcfunction
   /function ziwa:pistol/ammo
   /function ziwa:mp/ammo
@@ -39,7 +40,7 @@
   /function ziwa:rocket/ammo
   /function ziwa:sniper/ammo
   ```
-- Use the commands below to summon ammo as an item
+- Use the commands below to summon ammo as an item entity.
   ```mcfunction
   /function ziwa:pistol/sammo
   /function ziwa:mp/sammo
