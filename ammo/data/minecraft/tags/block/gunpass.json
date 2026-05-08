@@ -20,6 +20,11 @@
     "soul_torch",
     "soul_wall_torch",
     "redstone_torch",
-    "redstone_wall_torch"
+    "redstone_wall_torch",
+    "bush",
+    "tall_grass",
+    "short_grass",
+    "short_dry_grass",
+    "tall_dry_grass"
   ]
 }

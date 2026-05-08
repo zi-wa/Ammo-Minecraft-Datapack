@@ -5,4 +5,4 @@ scoreboard players set @s rec 0
 execute rotated as @s run rotate @s ~ ~-1
 scoreboard players set @s gtime 5
 scoreboard players remove @s ammo_pistol 1
-execute as @e[tag=gdamage] run tag @s remove gdamage
+execute as @e[tag=gdamage,limit=1] run tag @s remove gdamage

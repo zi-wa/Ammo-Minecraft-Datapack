@@ -17,4 +17,4 @@ execute rotated as @s run rotate @s ~ ~-6
 
 scoreboard players set @s gtime 15
 scoreboard players remove @s ammo_shot 1
-execute as @e[tag=gdamage] run tag @s remove gdamage
+execute as @e[tag=gdamage,limit=5] run tag @s remove gdamage

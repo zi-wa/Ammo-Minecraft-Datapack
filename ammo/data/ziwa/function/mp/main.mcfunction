@@ -19,4 +19,4 @@ execute if score @s grand matches 5 rotated as @s run rotate @s ~-2 ~-1
 
 scoreboard players set @s gtime 2
 scoreboard players remove @s ammo_mp 1
-execute as @e[tag=gdamage] run tag @s remove gdamage
+execute as @e[tag=gdamage,limit=1] run tag @s remove gdamage
